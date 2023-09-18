@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<div class="container">                  
+<h2 id="Products" class="fs-1 p-5 mt-5 mb-5 text-center">SPORTSWEAR PRODUCTS</h2>
+     <div class="row">
+        <div class="col">
+            <div class="card">
+                <img class="product-img card-img-top" src="images/jersey.jpg" alt="Jersey Wear" style="max-height: 300px;">
+                <div class="card-body">
+                  <h5 class="card-title">Jersey</h5>
+                  <p class="card-text">$30.00</p>
+                  <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addToCartModal1">Add to Cart</button>
+              <div class="modal fade" id="addToCartModal1" tabindex="-1" aria-labelledby="addToCartModal1Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="addToCartModal1Label">Added to Cart</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Product has been added to your cart.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continue Shopping</button>
+                      <button type="button" class="btn btn-primary">Go to Cart</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion" id="accordionExampleJersey">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Description
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                  It is made up of 100% polyester Recycled-interlock,it is Slim-fit and Denims Limited.
+              </div>
+            </div>
+          </div>
+       </div>
+       </div>
+       </div>
+
+     <div class="col">
+        <div class="card">
+            <img class="product-img card-img-top" src="images/shorts.jpg" alt="Shorts Wear" style="max-height: 300px;">
+            <div class="card-body">
+              <h5 class="card-title">Shorts</h5>
+              <p class="card-text">$25.00</p>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addToCartModal2">Add to Cart</button>
+              <div class="modal fade" id="addToCartModal2" tabindex="-1" aria-labelledby="addToCartModal2Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="addToCartModal2Label">Added to Cart</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Product has been added to your cart.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continue Shopping</button>
+                      <button type="button" class="btn btn-primary">Go to Cart</button>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="accordion" id="accordionExampleShorts">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+            Description
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+              These shorts, eco-designed in fabric made with 24% recycled polyester and 23% recycled cotton (fabric weight: 220 gsm).It also Manages Moisture.
+          </div>
+        </div>
+      </div>
+   </div>
+   </div>
+   </div>
+
+    <div class="col">
+        <div class="card">
+            <img class="product-img card-img-top" src="images/trackpants.jpg" alt="TrackPants Wear" style="max-height: 300px;">
+            <div class="card-body">
+              <h5 class="card-title">Track Pants</h5>
+              <p class="card-text">$35.00</p>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addToCartModal3">Add to Cart</button>
+              <div class="modal fade" id="addToCartModal3" tabindex="-1" aria-labelledby="addToCartModal3Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="addToCartModal3Label">Added to Cart</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Product has been added to your cart.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continue Shopping</button>
+                      <button type="button" class="btn btn-primary">Go to Cart</button>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="accordion" id="accordionExampleTrackPants">
+      <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+          Description
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+            Regular Fit Track Pants with Unique Design for Maximum Style.The track pant have an elastic waist with drawstrings. It comes with zippered pockets on both sides and an additional non-zippered pocket on the hip.
+        </div>
+      </div>
+    </div>
+ </div>
+ </div>
+ </div>
+
+    <div class="col">
+        <div class="card">
+            <img class="product-img card-img-top" src="images/vest.jpg" alt="Vest Wear" style="max-height: 300px;">
+            <div class="card-body">
+              <h5 class="card-title">Vest</h5>
+              <p class="card-text">$20.00</p>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addToCartModal4">Add to Cart</button>
+              <div class="modal fade" id="addToCartModal4" tabindex="-1" aria-labelledby="addToCartModal4Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="addToCartModal4Label">Added to Cart</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Product has been added to your cart.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continue Shopping</button>
+                      <button type="button" class="btn btn-primary">Go to Cart</button>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="accordion" id="accordionExampleVest">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+            Description
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+              It is Sleeveless Printed Vest for Men,Regular Fit.It is made up of 100% Cotton Material.
+          </div>
+        </div>
+      </div>
+   </div>
+   </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3">
+        <div class="card">
+            <img class="product-img card-img-top" src="images/headbands.jpg" alt="headbands" style="max-height: 300px;">
+            <div class="card-body">
+              <h5 class="card-title">Athletic Headband</h5>
+              <p class="card-text">$4.00</p>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addToCartModal5">Add to Cart</button>
+              <div class="modal fade" id="addToCartModal5" tabindex="-1" aria-labelledby="addToCartModal5Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="addToCartModal5Label">Added to Cart</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Product has been added to your cart.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continue Shopping</button>
+                      <button type="button" class="btn btn-primary">Go to Cart</button>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+  
+        <div class="accordion" id="accordionExampleHeadbands">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingHeadbands">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneHeadbands" aria-expanded="true" aria-controls="collapseOneBat">
+                Description
+              </button>
+            </h2>
+            <div id="collapseOneHeadbands" class="accordion-collapse collapse show" aria-labelledby="headingHeadbands" data-bs-parent="#accordionExampleBat">
+              <div class="accordion-body">
+                Introducing our Performance Athletic Headband, the perfect accessory for athletes seeking both functionality and style during their workouts, training sessions, and active pursuits. Designed to keep sweat and hair away from your face while adding a touch of flair to your athletic ensemble, this headband is a must-have addition to your gear collection.
+              </div>
+            </div>
+          </div>
+       </div>
+       </div>
+       </div>
+  
+       <div class="col-md-3">
+        <div class="card">
+            <img class="product-img card-img-top" src="images/compression.jpg" alt="Compression Socks">
+            <div class="card-body">
+              <h5 class="card-title">Compression Socks</h5>
+              <p class="card-text">$7.00</p>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addToCartModal6">Add to Cart</button>
+              <div class="modal fade" id="addToCartModal6" tabindex="-1" aria-labelledby="addToCartModal6Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="addToCartModal6Label">Added to Cart</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Product has been added to your cart.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continue Shopping</button>
+                      <button type="button" class="btn btn-primary">Go to Cart</button>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+  
+        <div class="accordion" id="accordionExampleCompressionSocks">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOneCompressionSocks">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneCompressionSocks" aria-expanded="true" aria-controls="collapseOneBat">
+                Description
+              </button>
+            </h2>
+            <div id="collapseOneCompressionSocks" class="accordion-collapse collapse show" aria-labelledby="headingOneCompressionSocks" data-bs-parent="#accordionExampleBat">
+              <div class="accordion-body">
+                Introducing our Compression Socks, a game-changing accessory designed to elevate your athletic performance, reduce muscle fatigue, and aid in post-workout recovery. Whether you're a runner, a cyclist, or an active individual, these socks offer the support and comfort you need to push your limits and recover faster.
+              </div>
+            </div>
+          </div>
+       </div>
+       </div>
+       </div>
+  
+       <div class="col-md-3">
+        <div class="card">
+            <img class="product-img card-img-top" src="images/gym.jpg" alt="Gym Gloves">
+            <div class="card-body">
+              <h5 class="card-title">Gym Gloves</h5>
+              <p class="card-text">$8.00</p>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addToCartModal7">Add to Cart</button>
+              <div class="modal fade" id="addToCartModal7" tabindex="-1" aria-labelledby="addToCartModal7Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="addToCartModal7Label">Added to Cart</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Product has been added to your cart.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continue Shopping</button>
+                      <button type="button" class="btn btn-primary">Go to Cart</button>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+  
+        <div class="accordion" id="accordionExampleGymGloves">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOneGymGloves">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneGymGloves" aria-expanded="true" aria-controls="collapseOneBat">
+                Description
+              </button>
+            </h2>
+            <div id="collapseOneGymGloves" class="accordion-collapse collapse show" aria-labelledby="headingOneGymGloves" data-bs-parent="#accordionExampleBat">
+              <div class="accordion-body">
+                ntroducing our Performance Gym Gloves, the essential accessory for weightlifters, fitness enthusiasts, and anyone looking to elevate their gym experience. Designed to provide superior grip, wrist support, and hand protection, these gloves are your partner in maximizing your workout potential while maintaining comfort.
+              </div>
+            </div>
+          </div>
+       </div>
+       </div>
+       </div>
+  
+       <div class="col-md-3">
+        <div class="card">
+            <img class="product-img card-img-top" src="images/belt.jpg" alt="belt">
+            <div class="card-body">
+              <h5 class="card-title">Fitness Belt</h5>
+              <p class="card-text">$11.00</p>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addToCartModal8">Add to Cart</button>
+              <div class="modal fade" id="addToCartModal8" tabindex="-1" aria-labelledby="addToCartModal8Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="addToCartModal8Label">Added to Cart</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Product has been added to your cart.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continue Shopping</button>
+                      <button type="button" class="btn btn-primary">Go to Cart</button>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+  
+        <div class="accordion" id="accordionExampleBelt">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOneBelt">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneBelt" aria-expanded="true" aria-controls="collapseOneBat">
+                Description
+              </button>
+            </h2>
+            <div id="collapseOneBelt" class="accordion-collapse collapse show" aria-labelledby="headingOneBelt" data-bs-parent="#accordionExampleBat">
+              <div class="accordion-body">
+                Introducing our Performance Fitness Belt, an essential accessory for individuals seeking enhanced core support, stability, and confidence during their strength training and weightlifting sessions. Designed to provide targeted support to your lower back and abdominal region, this belt is a valuable addition to your fitness gear collection.
+              </div>
+            </div>
+          </div>
+       </div>
+       </div>
+       </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-md-3">
+        <div class="card">
+            <img class="product-img card-img-top" src="images/reflective.jpg" alt="Reflective Gear" style="max-height: 300px;">
+            <div class="card-body">
+              <h5 class="card-title">Reflective Gear</h5>
+              <p class="card-text">$9.00</p>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addToCartModal9">Add to Cart</button>
+              <div class="modal fade" id="addToCartModal9" tabindex="-1" aria-labelledby="addToCartModal9Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="addToCartModal9Label">Added to Cart</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Product has been added to your cart.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continue Shopping</button>
+                      <button type="button" class="btn btn-primary">Go to Cart</button>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+  
+        <div class="accordion" id="accordionExampleReflectiveGear">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOneReflectiveGear">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneReflectiveGear" aria-expanded="true" aria-controls="collapseOneBat">
+                Description
+              </button>
+            </h2>
+            <div id="collapseOneReflectiveGear" class="accordion-collapse collapse show" aria-labelledby="headingOneReflectiveGear" data-bs-parent="#accordionExampleBat">
+              <div class="accordion-body">
+                Introducing our Reflective Gear, a crucial component for anyone who values safety and visibility during outdoor activities in low-light conditions. Designed to enhance your visibility to others, our reflective gear ensures you can confidently pursue your outdoor adventures while staying safe and seen.
+              </div>
+            </div>
+          </div>
+       </div>
+       </div>
+       </div>
+  
+       <div class="col-md-3">
+        <div class="card">
+            <img class="product-img card-img-top" src="images/neck.webp" alt="Neck Gaiters" style="max-height: 300px;">
+            <div class="card-body">
+              <h5 class="card-title">Neck Gaiters</h5>
+              <p class="card-text">$5.00</p>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addToCartModal10">Add to Cart</button>
+              <div class="modal fade" id="addToCartModal10" tabindex="-1" aria-labelledby="addToCartModal10Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="addToCartModal10Label">Added to Cart</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Product has been added to your cart.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continue Shopping</button>
+                      <button type="button" class="btn btn-primary">Go to Cart</button>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+  
+        <div class="accordion" id="accordionExampleNeckGaiters">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOneNeckGaiters">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneNeckGaiters" aria-expanded="true" aria-controls="collapseOneBat">
+                Description
+              </button>
+            </h2>
+            <div id="collapseOneNeckGaiters" class="accordion-collapse collapse show" aria-labelledby="headingOneNeckGaiters" data-bs-parent="#accordionExampleBat">
+              <div class="accordion-body">
+                Introducing our versatile Neck Gaiters, a multi-functional accessory designed to provide protection, comfort, and style for outdoor activities. Whether you're hiking, biking, running, or simply enjoying the outdoors, our neck gaiters offer a range of benefits to enhance your experience.
+              </div>
+            </div>
+          </div>
+       </div>
+       </div>
+       </div>
+  
+       <div class="col-md-3">
+        <div class="card">
+            <img class="product-img card-img-top" src="images/watch.jpg" alt="Sports Watch">
+            <div class="card-body">
+              <h5 class="card-title">Sports Watch</h5>
+              <p class="card-text">$12.00</p>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addToCartModal11">Add to Cart</button>
+              <div class="modal fade" id="addToCartModal11" tabindex="-1" aria-labelledby="addToCartModal11Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="addToCartModal11Label">Added to Cart</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Product has been added to your cart.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continue Shopping</button>
+                      <button type="button" class="btn btn-primary">Go to Cart</button>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+  
+        <div class="accordion" id="accordionExampleWatch">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOneWatch">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneWatch" aria-expanded="true" aria-controls="collapseOneBat">
+                Description
+              </button>
+            </h2>
+            <div id="collapseOneWatch" class="accordion-collapse collapse show" aria-labelledby="headingOneWatch" data-bs-parent="#accordionExampleBat">
+              <div class="accordion-body">
+                Introducing our Performance Sports Watch, the ultimate companion for individuals leading active lives and pursuing their fitness goals. Packed with features designed to track your workouts, monitor your progress, and enhance your performance, this sports watch is a must-have accessory for athletes of all levels.
+              </div>
+            </div>
+          </div>
+       </div>
+       </div>
+       </div>
+  
+       <div class="col-md-3">
+        <div class="card">
+            <img class="product-img card-img-top" src="images/tracker.jpg" alt="activity tracker" style="max-height: 300px;">
+            <div class="card-body">
+              <h5 class="card-title">Activity Tracker</h5>
+              <p class="card-text">$12.00</p>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addToCartModal12">Add to Cart</button>
+              <div class="modal fade" id="addToCartModal12" tabindex="-1" aria-labelledby="addToCartModal12Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="addToCartModal12Label">Added to Cart</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Product has been added to your cart.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continue Shopping</button>
+                      <button type="button" class="btn btn-primary">Go to Cart</button>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+  
+        <div class="accordion" id="accordionExampleTracker">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOneTracker">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneTracker" aria-expanded="true" aria-controls="collapseOneWicketkeeper">
+                Description
+              </button>
+            </h2>
+            <div id="collapseOneTracker" class="accordion-collapse collapse show" aria-labelledby="headingOneTracker" data-bs-parent="#accordionExampleWicketkeeper">
+              <div class="accordion-body">
+                Introducing our Activity Tracker, a smart and intuitive device designed to empower you in achieving a balanced and active lifestyle. With advanced features for tracking your daily movements, sleep patterns, and overall wellness, this tracker is your key to better health and well-being.
+              </div>
+            </div>
+          </div>
+       </div>
+       </div>
+       </div>
+  </div>
+
+</body>
+</html>
