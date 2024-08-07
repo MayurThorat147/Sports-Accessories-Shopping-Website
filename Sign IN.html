@@ -15,6 +15,21 @@
       background-attachment: fixed;
     }
   </style>
+  <script>
+    function handleSignIn(event) {
+      event.preventDefault();
+
+      const email = document.getElementById('email').value;
+      const password = document.getElementById('password').value;
+
+      if (email && password) {
+        alert('Sign In successful!');
+        window.location.href = 'cricket.html';
+      } else {
+        alert('Please enter valid credentials.');
+      }
+    }
+  </script>
 </head>
 <body>
     <div class="background-image">
@@ -26,7 +41,7 @@
                 SIGN IN
               </div>
               <div class="card-body">
-                <form>
+                <form onsubmit="handleSignIn(event)">
                   <div class="mb-3">
                     <label for="email" class="form-label">Email address</label>
                     <input type="email" class="form-control" id="email" required>
