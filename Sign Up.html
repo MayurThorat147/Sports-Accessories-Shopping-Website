@@ -15,28 +15,63 @@
       background-attachment: fixed;
     }
   </style>
+  <script>
+    function validateForm(event) {
+      event.preventDefault();
+
+      const fullName = document.getElementById('fullName').value;
+      const email = document.getElementById('email').value;
+      const password = document.getElementById('password').value;
+      const confirmPassword = document.getElementById('confirmPassword').value;
+
+      let valid = true;
+      let errorMessage = '';
+
+      if (!email.includes('@')) {
+        errorMessage += 'Email should contain "@" symbol.\n';
+        valid = false;
+      }
+
+      if (password.length <= 5) {
+        errorMessage += 'Password should be more than 5 characters.\n';
+        valid = false;
+      }
+
+      if (password !== confirmPassword) {
+        errorMessage += 'Passwords do not match.\n';
+        valid = false;
+      }
+
+      if (valid) {
+        alert('Form submitted successfully!');
+        window.location.href = 'Sign IN.html';
+      } else {
+        alert(errorMessage);
+      }
+    }
+  </script>
 </head>
 <body>
   <div class="container mt-5">
     <div class="row justify-content-center">
       <div class="col-md-6 text-white">
         <h2 class="mb-4">Sign Up</h2>
-        <form>
+        <form onsubmit="validateForm(event)">
           <div class="mb-3">
             <label for="fullName" class="form-label">Full Name</label>
-            <input type="text" class="form-control" id="fullName" placeholder="Enter your full name">
+            <input type="text" class="form-control" id="fullName" placeholder="Enter your full name" required>
           </div>
           <div class="mb-3">
             <label for="email" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
           </div>
           <div class="mb-3">
             <label for="password" class="form-label">Password</label>
-            <input type="password" class="form-control" id="password" placeholder="Enter your password">
+            <input type="password" class="form-control" id="password" placeholder="Enter your password" required>
           </div>
           <div class="mb-3">
             <label for="confirmPassword" class="form-label">Confirm Password</label>
-            <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm your password">
+            <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm your password" required>
           </div>
           <button type="submit" class="btn btn-primary">Sign Up</button>
         </form>
